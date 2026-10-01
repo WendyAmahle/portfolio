@@ -19,9 +19,10 @@ export const profile = {
 }
 
 export const skills = [
-  { group: 'Languages', items: ['JavaScript', 'TypeScript', 'Java', 'PHP', 'SQL', 'GLSL'] },
+  { group: 'Languages', items: ['JavaScript', 'TypeScript', 'Java', 'Python', 'C', 'PHP', 'SQL', 'GLSL'] },
   { group: 'Frontend', items: ['React', 'Vite', 'Tailwind CSS', 'three.js'] },
   { group: 'Backend & Data', items: ['Node.js', 'Express', 'PostgreSQL', 'REST APIs'] },
   { group: 'Mobile', items: ['Android', 'Retrofit'] },
+  { group: 'Data & Parallel Computing', items: ['pandas', 'scikit-learn', 'XGBoost', 'OpenMP', 'MPI'] },
   { group: 'Tools & Practice', items: ['Git & GitHub', 'GitHub Actions', 'Jest', 'Azure', 'Agile / Scrum'] },
 ]

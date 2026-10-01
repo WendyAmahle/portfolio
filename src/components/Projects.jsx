@@ -23,9 +23,11 @@ function ProjectCard({ project }) {
         ))}
       </ul>
       <div className="card-links">
-        <a href={project.repo} target="_blank" rel="noreferrer">
-          Code ↗
-        </a>
+        {project.repo && (
+          <a href={project.repo} target="_blank" rel="noreferrer">
+            Code ↗
+          </a>
+        )}
         {project.demo && (
           <a href={project.demo} target="_blank" rel="noreferrer">
             Live demo ↗

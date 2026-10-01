@@ -62,4 +62,35 @@ export const projects = [
     repo: 'https://github.com/sbongakonke68/CarbonFootprintTracker',
     demo: '',
   },
+  {
+    title: 'Wearable Sensor Activity Classification',
+    subtitle: 'Machine learning on time-series sensor data',
+    context: 'COMS3007A Machine Learning · Group assignment',
+    description:
+      'A machine learning pipeline that classifies activity from wearable sensor recordings. Each sample is a 100-step window of multiple sensor signals, some with dropouts, and the model predicts its activity class for a Kaggle-style submission.',
+    highlights: [
+      'Exploratory analysis of signal behaviour, correlations and missing data',
+      'Per-sample forward/back-fill imputation to handle sensor dropout',
+      'Statistical, trend, energy and frequency-domain (FFT) features for every signal',
+      'XGBoost classifier evaluated with grouped, stratified 5-fold cross-validation on macro-F1',
+    ],
+    tech: ['Python', 'pandas', 'NumPy', 'SciPy', 'scikit-learn', 'XGBoost'],
+    repo: '',
+    demo: '',
+  },
+  {
+    title: 'Parallel Bitonic Sort',
+    subtitle: 'Shared- and distributed-memory sorting in C',
+    context: 'Parallel Computing · Individual assignment',
+    description:
+      'Three implementations of bitonic sort, one sequential, one parallelised with OpenMP threads and one distributed across processes with MPI, each validated for correctness and timed to compare performance and speedup.',
+    highlights: [
+      'OpenMP version with static scheduling and barrier synchronisation between stages',
+      'MPI version using Scatter, pairwise Sendrecv exchanges and Gather',
+      'Benchmark sweeps across input sizes and thread/process counts, with speedup analysis against a quicksort baseline',
+    ],
+    tech: ['C', 'OpenMP', 'MPI', 'Linux', 'Make'],
+    repo: '',
+    demo: '',
+  },
 ]
