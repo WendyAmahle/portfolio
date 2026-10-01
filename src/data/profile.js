@@ -15,7 +15,7 @@ export const profile = {
   studentEmail: '2870026@students.wits.ac.za',
   github: 'https://github.com/WendyAmahle',
   linkedin: 'https://www.linkedin.com/in/wendy-khumalo-205428320',
-  cv: '', // TODO: put cv.pdf in /public and set this to 'cv.pdf'
+  cv: 'cv.pdf',
 }
 
 export const skills = [

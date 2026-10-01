@@ -15,7 +15,7 @@ export default function Hero() {
           View my projects
         </a>
         {profile.cv && (
-          <a className="button" href={`${import.meta.env.BASE_URL}${profile.cv}`} download>
+          <a className="button" href={`${import.meta.env.BASE_URL}${profile.cv}`} download="Wendy-Khumalo-CV.pdf">
             Download CV
           </a>
         )}
