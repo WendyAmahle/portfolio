@@ -11,6 +11,13 @@ export default function Contact() {
       <a className="button primary" href={`mailto:${profile.email}`}>
         {profile.email}
       </a>
+      <ul className="contact-details">
+        {profile.studentEmail && (
+          <li>
+            Student email: <a href={`mailto:${profile.studentEmail}`}>{profile.studentEmail}</a>
+          </li>
+        )}
+      </ul>
       <ul className="social">
         <li>
           <a href={profile.github} target="_blank" rel="noreferrer">

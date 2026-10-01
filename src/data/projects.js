@@ -30,7 +30,7 @@ export const projects = [
     ],
     tech: ['React', 'Node.js', 'Express', 'TypeScript', 'PostgreSQL', 'Azure', 'Paystack', 'Jest'],
     repo: 'https://github.com/Campus-Food-Ordering-Platform/OrderUp',
-    demo: '',
+    demo: 'https://order-up-rho.vercel.app/',
   },
   {
     title: 'Bistro Rush: Culinary Mayhem',

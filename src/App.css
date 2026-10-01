@@ -202,6 +202,14 @@
   margin-bottom: 24px;
 }
 
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
 .social {
   display: flex;
   gap: 20px;
