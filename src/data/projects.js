@@ -2,6 +2,22 @@
 // and `demo` for a live link once one exists.
 export const projects = [
   {
+    title: 'Digital Logbook',
+    subtitle: 'Customisable project logbook for students',
+    context: 'COMS3011A Software Design Project · Team project',
+    description:
+      'A web app that replaces a paper logbook, helping students track their projects, the work they have done, the time spent and what is still to do. Each project defines its own entry format, so users choose the fields and value types an entry holds instead of being forced into one fixed structure.',
+    highlights: [
+      'Versioned, customisable entry formats with tags, checklists, links and computed fields',
+      'Statistics with custom expressions like SUM({Hours}) / COUNT(), a personal dashboard, and calendar and board views',
+      'Offline capture with sync, recurring entries, automation rules, push reminders and Google Calendar sync',
+      'TypeScript monorepo with shared Zod schemas, JWT auth with 2FA, tested with Vitest and built in CI on every push',
+    ],
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'Prisma', 'PostgreSQL', 'Vitest'],
+    repo: 'https://sdp.ms.wits.ac.za/no-boys-just-bugs/coms3011a-logbook-digital-logbook',
+    demo: 'https://coms3011a-logbook.pages.dev',
+  },
+  {
     title: 'OrderUp',
     subtitle: 'Campus food ordering platform',
     context: 'COMS3009A Software Design · Team project',
